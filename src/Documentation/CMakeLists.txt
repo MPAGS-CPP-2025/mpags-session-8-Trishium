@@ -28,8 +28,10 @@ add_custom_command(
           ${PROJECT_SOURCE_DIR}/MPAGSCipher/RunCaesarCipher.hpp
           ${PROJECT_SOURCE_DIR}/MPAGSCipher/TransformChar.cpp
           ${PROJECT_SOURCE_DIR}/MPAGSCipher/TransformChar.hpp
+          ${PROJECT_SOURCE_DIR}/mpags-cipher.cpp
           ${PROJECT_SOURCE_DIR}/README.md
           ${PROJECT_SOURCE_DIR}/CMakeLists.txt
+
   # Log that the command is run
   COMMENT "Doxygenating ${PROJECT_NAME}"
   )
